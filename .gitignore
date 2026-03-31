@@ -1,3 +1,24 @@
 node_modules/
 dist/
 .env
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Maven
+target/
+.m2/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE Files
+*.iml
+*.iws
+*.ipr

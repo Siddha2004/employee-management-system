@@ -1,6 +1,7 @@
 import { Employee } from './mockData';
 
-const API_BASE_URL = 'http://localhost:8081/api';
+// Use environment variable VITE_API_URL, fallback to localhost for development
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8081/api';
 
 export const api = {
   // Employees
