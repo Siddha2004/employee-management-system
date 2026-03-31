@@ -16,4 +16,4 @@ services:
       - key: CORS_ALLOWED_ORIGINS
         value: https://your-vercel-frontend-url  # Replace with your Vercel frontend URL
     buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
+    
